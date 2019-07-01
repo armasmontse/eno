@@ -1,0 +1,38 @@
+$colors: (
+	base:	#ffffff,
+	black:	#000000,
+
+	green-dark: #375024,
+	green-light: #6D8536,
+	green-dark-extra: #172A08,
+
+	purple: #4F3850,
+	purple-dark: #363B4F,
+
+	beige-dark: #E0DCCC,
+	beige: #F3EDD7,
+
+	orange-dark: #B45927,
+	orange-light: #B6792F,
+
+	golden: #967714,
+	golden-dark: #583802,
+	brown-dark: #685A25,
+
+	blue: #3A6582,
+	blue-dark: #0E2842,
+
+	came-light: #8B371D,
+	came-dark: #501916,
+
+	);
+
+@function c($color:base) {
+	@return map-get($colors, $color);
+}
+
+//no borrar
+$colorForeground: c();
+$colorBackground: c(white);
+$colorFeatured: c(green-light);
+$colorError: #8A1010;

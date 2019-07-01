@@ -1,0 +1,28 @@
+//_________________________ Config:Fuentes _________________________ \\
+
+/**
+ * Declare fonts using the Mixin
+ */
+// declara-font-face($font-family, $font-filename, $font-weight: normal, $font-style: normal, $font-stretch: normal)
+@include declara-font-face(StyreneB, '../fonts/StyreneB/StyreneB-LightItalic', 300, italic);
+@include declara-font-face(StyreneB, '../fonts/StyreneB/StyreneB-Regular', normal, normal);
+@include declara-font-face(StyreneB, '../fonts/StyreneB/StyreneB-RegularItalic', normal, italic);
+@include declara-font-face(StyreneB, '../fonts/StyreneB/StyreneB-Medium', 500, normal);
+
+@include declara-font-face(CaponiText, '../fonts/CaponiText/CaponiText-Italic', normal, italic);
+@include declara-font-face(CaponiText, '../fonts/CaponiText/CaponiText-Medium', 500, normal);
+@include declara-font-face(CaponiText, '../fonts/CaponiText/CaponiText-RegularNo', normal, normal);
+
+
+/// Refer to font families through mapped variables.
+/// Font families must be written as lists, that is, between parenthesis.
+///
+///
+$fonts:(
+	serif:  ('CaponiText', serif),
+	sans:   ('StyreneB', sans-serif)
+);
+
+@function f($font) {
+	@return map-get($fonts, $font);
+}

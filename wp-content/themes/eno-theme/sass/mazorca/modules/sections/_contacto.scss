@@ -1,0 +1,302 @@
+.contacto {
+	background-color: c(beige-dark);
+	&__container {
+		display: none;
+
+		&.is-active {
+			display: flex;
+		}
+	}
+
+	/* C o l o r e s */
+	&__color {
+		height: 100%;
+		min-height: 100vh;
+		overflow: hidden;
+		@include under(second) {
+				height: auto;
+	    	}
+	}
+
+	&__box{
+		height: 100%;
+		min-height: 100vh;
+		padding: 0 80px;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+	    //align-items: center;
+		padding-bottom: 40px;
+		@include over(lg-1400) {
+			justify-content: center;
+		}
+		@include under(lg-1400) {
+			padding: 0 2vw 40px 2vw;
+		}
+
+		@media screen and (max-height: 780px){
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+
+		}
+
+
+	    	@include under(first) {
+			width: 100%;
+			max-width: 520px;
+			margin: 0 auto;
+	    	}
+	    	@include under(second) {
+	    	     padding: 70px 0px 40px 0px;
+			height: auto;
+	    	}
+	}
+
+	&__ubicaciones {
+		width: 100%;
+		max-width: 540px;
+		z-index: 2;
+		@include under(second) {
+			text-align: center;
+		}
+	}
+
+	&__content {
+		width: 100%;
+		// display: none;
+		max-width: 540px;
+	     padding-top: 20px;
+		@media screen and (max-height: 780px){
+		    padding-top: 10px;
+		}
+		@media screen and (max-height: 700px){
+		     padding-top: 0px;
+		}
+	}
+
+	// &-palmas, &-virreyes, &-roma, &-petrarca {
+	// 	display: none;
+	// 	&.is_active {
+	// 		display: block;
+	// 	}
+	// }
+	&.is_active {
+		display: block;
+	}
+
+	&__subtitle {
+		@extend %sbtitle-content;
+		text-transform: uppercase;
+		margin-top: 50px;
+	     margin-bottom: 20px;
+		@include under(second) {
+		    text-align: center;
+		}
+		@media screen and (max-height: 780px){
+			margin-top: 15px;
+			margin-bottom: 5px;
+		}
+		@media screen and (max-height: 700px){
+			margin-top:5px;
+		}
+	}
+
+	&__ttl {
+		@extend %title-sections;
+		margin-bottom: 30px;
+	}
+
+	&__mapa {
+		display: block;
+		width: 100%;
+		height: auto;
+		position: relative;
+		overflow: hidden;
+		padding-top: 58.54%;
+		@include under(second) {
+			padding-bottom: 3em;
+		}
+		&--image {
+			display: block;
+		  max-width: 100%;
+		  max-height: 100%;
+			object-fit: contain;
+		  position: absolute;
+		  top: 0;
+		  bottom: 0;
+		  left: 0;
+		  right: 0;
+		}
+	}
+
+
+	&__sucursal {
+		@extend %sbtitle-sucursales;
+		cursor: pointer;
+		// &.is-active, &:hover {
+		// 	@extend %color-purple-dark;
+		// 	color: red !important;
+		// }
+
+		a {
+			display: block;
+			outline: none;
+		}
+
+	}
+
+	&__contenido {
+		@extend %paragraph-contact-addres;
+		display: flex;
+		@include under(second) {
+			flex-direction: column;
+		}
+		&--direccion {
+			width: 50%;
+			@include under(second) {
+				width: 100%;
+				display: flex;
+			    flex-direction: column;
+			    align-items: center;
+			    margin-bottom: 20px;
+				@include under(xs) {
+					text-align: center;
+				}
+			}
+			p {
+				strong {
+					font-weight: bold;
+				}
+
+				em {
+					font-style: italic;
+				}
+
+				a {
+					text-decoration: underline;
+				}
+			}
+		}
+
+		&--horarios {
+			width: 50%;
+			display: flex;
+		    flex-direction: column;
+		    align-items: center;
+		    @include under(second) {
+				width: 100%;
+			}
+
+			p {
+				strong {
+					font-weight: bold;
+				}
+
+				em {
+					font-style: italic;
+				}
+
+				a {
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+
+	&__restricciones {
+		@extend %paragraph-restricciones;
+		margin-top: 25px;
+		@include under(second) {
+			text-align: center;
+
+		}
+		@media screen and (max-height: 700px){
+			margin-top: 0px;
+		}
+
+		strong {
+			font-weight: bold;
+		}
+
+
+		a {
+			text-decoration: underline;
+		}
+
+		em {
+			font-style: italic;
+			font-weight: 100;
+		}
+	}
+
+	/* I m a g e n */
+	&__image {
+		height: auto;
+		min-height: 100vh;
+		background-size: cover;
+		background-position: 0% center;
+		background-repeat: no-repeat;
+
+		padding-right: 0px !important;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+		&:hover {
+			.contacto__layer-back {
+				position: absolute;
+				width: 100%;
+				// background-color: #4f3850;
+				height: 100%;
+				opacity: 0.75;
+				top: 0;
+				transition: opacity 0.8s;
+				// transition: 0.5s all;
+			}
+			.contacto__text-hover {
+				color: c();
+				@extend %paragraph-text-hover;
+				width: 100%;
+				max-width: 430px;
+			     z-index: 1;
+				opacity: 1;
+				transition: opacity 0.9s;
+			}
+			.contacto__text-hover {
+				color: c();
+				@extend %paragraph-text-hover;
+				width: 100%;
+				max-width: 430px;
+			     z-index: 1;
+				opacity: 1;
+				transition: opacity 0.9s;
+				p span {
+					font-family: "StyreneB", sans-serif !important;
+				}
+			}
+		}
+	}
+	&__layer-back {
+		position: absolute;
+		width: 100%;
+		background-color: #4f3850;
+		height: 100%;
+		opacity: 0;
+		top: 0;
+
+	}
+
+	&__text-hover {
+		color: c();
+		@extend %paragraph-text-hover;
+		width: 100%;
+		max-width: 470px;
+		opacity: 0;
+		padding: 0 20px;
+		@include under(xs) {
+			text-align: center;
+		}
+	}
+}

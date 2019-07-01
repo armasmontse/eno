@@ -1,0 +1,435 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: - Eno Theme -\n"
+"POT-Creation-Date: 2019-04-25 13:30-0500\n"
+"PO-Revision-Date: 2019-04-25 13:30-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:5
+msgid "<span>404</span> ¡Lo sentimos! No encontramos la página"
+msgstr "<span>404</span> We are sorry! We can not find the page"
+
+#: 404.php:6
+msgid "Regresar"
+msgstr "Return"
+
+#: ajax/CltvoAjaxMail.php:156
+msgid "Error en envío."
+msgstr "Send error"
+
+#: ajax/CltvoAjaxMail.php:183
+msgid "Correo incorrecto"
+msgstr "Wrong email"
+
+#: ajax/CltvoAjaxMail.php:234
+msgid "Error en el envío mailForProvider"
+msgstr "Shipping error mailForProvider"
+
+#: ajax/CltvoAjaxMail.php:243
+msgid "Error en el envío mailForSuscriber"
+msgstr "Shipping error mailForSuscriber"
+
+#: functions/admin/metaboxes/Cltvo_Comunity.php:55
+#: functions/admin/metaboxes/Cltvo_SocialNet.php:114
+#: inc/templates/_catering.php:21
+msgid "Nombre"
+msgstr "Name"
+
+#: functions/admin/metaboxes/Cltvo_Comunity.php:59
+msgid "comunidad eno"
+msgstr "eno community"
+
+#: functions/admin/metaboxes/Cltvo_Comunity.php:69
+#: functions/admin/metaboxes/Cltvo_From_Here.php:69
+#: functions/admin/metaboxes/Cltvo_Online_Shop.php:69
+#: functions/admin/metaboxes/Cltvo_Us.php:114
+msgid "Contenido"
+msgstr "Content"
+
+#: functions/admin/metaboxes/Cltvo_From_Here.php:59
+#: functions/admin/metaboxes/Cltvo_Online_Shop.php:59
+#: functions/admin/metaboxes/Cltvo_Us.php:70
+msgid "Subtítulo"
+msgstr "Subtitle"
+
+#: functions/admin/metaboxes/Cltvo_From_Here.php:63
+msgid "ingredientes de origen"
+msgstr "origin ingredients"
+
+#: functions/admin/metaboxes/Cltvo_From_Here.php:75
+#: functions/admin/metaboxes/Cltvo_Services.php:136
+#: functions/admin/metaboxes/Cltvo_Splash.php:57
+#: functions/admin/metaboxes/Cltvo_Us.php:81
+msgid "Título"
+msgstr "Title"
+
+#: functions/admin/metaboxes/Cltvo_From_Here.php:79
+msgid "De aquí"
+msgstr "From here"
+
+#: functions/admin/metaboxes/Cltvo_From_Here.php:88
+#: functions/admin/metaboxes/Cltvo_Online_Shop.php:75
+#: functions/admin/metaboxes/Cltvo_Splash.php:71
+#: functions/admin/metaboxes/Cltvo_Us.php:119
+msgid "Imagen"
+msgstr "Image"
+
+#: functions/admin/metaboxes/Cltvo_From_Here.php:89
+#: functions/admin/metaboxes/Cltvo_Location_Map.php:79
+#: functions/admin/metaboxes/Cltvo_Online_Shop.php:76
+#: functions/admin/metaboxes/Cltvo_Splash.php:72
+#: functions/admin/metaboxes/Cltvo_Us.php:120
+msgid "imagen"
+msgstr "Image"
+
+#: functions/admin/metaboxes/Cltvo_Location_Info.php:59
+msgid "Dirección"
+msgstr "Address"
+
+#: functions/admin/metaboxes/Cltvo_Location_Info.php:63
+msgid "Horarios"
+msgstr "Schedules"
+
+#: functions/admin/metaboxes/Cltvo_Location_Info.php:69
+msgid "Comentarios"
+msgstr "Comments"
+
+#: functions/admin/metaboxes/Cltvo_Location_Map.php:66
+msgid "Imagen "
+msgstr "Image"
+
+#: functions/admin/metaboxes/Cltvo_Online_Shop.php:63
+msgid "Tienda en línea"
+msgstr "Online Shop"
+
+#: functions/admin/metaboxes/Cltvo_Services.php:71
+msgid "Nombre de navegación 1"
+msgstr "Navigation 1"
+
+#: functions/admin/metaboxes/Cltvo_Services.php:75
+msgid "Facturación"
+msgstr "Invoicing"
+
+#: functions/admin/metaboxes/Cltvo_Services.php:83
+msgid "Contenido 1"
+msgstr "Content 1"
+
+#: functions/admin/metaboxes/Cltvo_Services.php:86
+msgid "Nombre de navegación 2"
+msgstr "Navigation 2"
+
+#: functions/admin/metaboxes/Cltvo_Services.php:90
+msgid "Bolsa de trabajo"
+msgstr "CAREERS"
+
+#: functions/admin/metaboxes/Cltvo_Services.php:96
+msgid "Contenido 2"
+msgstr "Content 2"
+
+#: functions/admin/metaboxes/Cltvo_Services.php:100
+msgid "Imagen derecha"
+msgstr "Right Image"
+
+#: functions/admin/metaboxes/Cltvo_Services.php:101
+msgid "imagen derecha"
+msgstr "Right Image"
+
+#: functions/admin/metaboxes/Cltvo_Services.php:106
+msgid "Imagen izquierda"
+msgstr "Left image"
+
+#: functions/admin/metaboxes/Cltvo_Services.php:107
+msgid "imagen izquierda"
+msgstr "left image"
+
+#: functions/admin/metaboxes/Cltvo_Services.php:111
+msgid "Nombre de navegación 3"
+msgstr "Navigation 3"
+
+#: functions/admin/metaboxes/Cltvo_Services.php:115
+msgid "Catering."
+msgstr "Catering."
+
+#: functions/admin/metaboxes/Cltvo_Services.php:122
+msgid "Contenido 3"
+msgstr "Content 3"
+
+#: functions/admin/metaboxes/Cltvo_Services.php:134
+msgid "Instrucciones"
+msgstr "Instructions"
+
+#: functions/admin/metaboxes/Cltvo_Services.php:136
+msgid "Negrita"
+msgstr "Bold"
+
+#: functions/admin/metaboxes/Cltvo_Services.php:137
+msgid "Nota"
+msgstr "Note"
+
+#: functions/admin/metaboxes/Cltvo_Services.php:137
+msgid "Cita"
+msgstr "Quote"
+
+#: functions/admin/metaboxes/Cltvo_SocialNet.php:123
+msgid "Link"
+msgstr "Link"
+
+#: functions/admin/metaboxes/Cltvo_Splash.php:61
+msgid "Fresco. Local. Bueno."
+msgstr "Cool. Local. Good."
+
+#: functions/admin/metaboxes/Cltvo_Us.php:74
+msgid "natural cotidiano"
+msgstr "natural every day"
+
+#: functions/admin/metaboxes/Cltvo_Us.php:85
+#: functions/admin/metaboxes/Cltvo_Us.php:96
+#: functions/admin/metaboxes/Cltvo_Us.php:107
+msgid "Eno ... "
+msgstr "Eno ..."
+
+#: functions/admin/metaboxes/Cltvo_Us.php:92
+#, fuzzy
+#| msgid "Menu 1"
+msgid "Menu title"
+msgstr "Menu 1"
+
+#: functions/admin/metaboxes/Cltvo_Us.php:103
+#, fuzzy
+#| msgid "Menu 1"
+msgid "Menu meals"
+msgstr "Menu 1"
+
+#: functions/admin/metaboxes/Cltvo_Us.php:125
+msgid "Menu 1"
+msgstr "Menu 1"
+
+#: functions/admin/metaboxes/Cltvo_Us.php:129
+msgid "Menu 2"
+msgstr "Menu 2"
+
+#: functions/admin/metaboxes/traits/Cltvo_Featured_Image_Trait.php:46
+msgid "Clik en la imagen para cambiar "
+msgstr "Click on the image to change"
+
+#: functions/admin/metaboxes/traits/Cltvo_Featured_Image_Trait.php:60
+msgid "Agregar "
+msgstr "Add"
+
+#: functions/admin/metaboxes/traits/Cltvo_Featured_Image_Trait.php:63
+msgid "Remover "
+msgstr "Remove"
+
+#: functions/special_pages.php:140
+msgid "You cant delete this page."
+msgstr "You cant delete this page."
+
+#: functions/theme/ajax/Cltvo_Contact_Form.php:22
+msgid "El nombre es un campo requerido."
+msgstr "The name is a required field."
+
+#: functions/theme/ajax/Cltvo_Contact_Form.php:23
+msgid "El email no es valido."
+msgstr "The Email is invalid."
+
+#: functions/theme/ajax/Cltvo_Contact_Form.php:24
+msgid "El mensaje es un campo requerido."
+msgstr "The message is a required field."
+
+#: functions/theme/ajax/Cltvo_Contact_Form.php:31
+msgid "Llena todos los campos del formulario."
+msgstr "Fill all the fields of the form."
+
+#: functions/theme/ajax/Cltvo_Contact_Form.php:45
+#: functions/theme/ajax/Cltvo_Contact_Form.php:60
+msgid "Llena todos los campos del formulario correctamente."
+msgstr "Fill all fields of the form correctly."
+
+#: inc/templates/_catering.php:18
+msgid "CONTACTO"
+msgstr "CONTACT"
+
+#: inc/templates/_catering.php:25
+msgid "Email"
+msgstr "Email"
+
+#: inc/templates/_catering.php:29
+msgid "Teléfono"
+msgstr "Phone number"
+
+#: inc/templates/_catering.php:34
+msgid "Fecha de evento"
+msgstr "Event Date"
+
+#: inc/templates/_catering.php:37
+msgid "# de personas"
+msgstr "# of Persons"
+
+#: inc/templates/_catering.php:42
+msgid "Mensaje"
+msgstr "Message"
+
+#: inc/templates/_catering.php:45
+msgid "ENVIAR"
+msgstr "SEND"
+
+#: inc/templates/_catering.php:50
+msgid "Recibimos tus datos. <br> Muchas gracias, nos pondremos en contacto."
+msgstr "We receive your data. <b> Thank you very much, we will get in touch."
+
+#: inc/templates/_contacto.php:20
+msgid "ubicaciones"
+msgstr "location"
+
+#: inc/templates/_contacto.php:39
+msgid "información"
+msgstr "information"
+
+#: inc/templates/_nav.php:9
+msgid "Botón para abrir menu"
+msgstr "Open menu"
+
+#: inc/templates/_nav.php:23
+msgid "Logotipo Eno"
+msgstr "Logo Eno"
+
+#: inc/templates/_nav.php:39
+msgid "Botón para cerrar menu"
+msgstr "Close Menu"
+
+#: inc/templates/_nav.php:55
+msgid "nosotros / menú"
+msgstr "about us / menu "
+
+#: inc/templates/_nav.php:56
+msgid "ingredientes"
+msgstr "ingredients"
+
+#: inc/templates/_nav.php:57
+msgid "sucursales"
+msgstr "locations"
+
+#: inc/templates/_nav.php:58
+msgid "comunidad"
+msgstr "community"
+
+#: inc/templates/_nav.php:82
+msgid "diario"
+msgstr "diary"
+
+#: inc/templates/_nav.php:83
+msgid "PRÓXIMAMENTE"
+msgstr "COMING SOON"
+
+#: inc/templates/_nav.php:89
+msgid "suscríbete a <br> nuestro newsletter"
+msgstr "Subscribe to <br> our newsletter"
+
+#: inc/templates/_nav.php:129
+msgid "Enviar"
+msgstr "Send"
+
+#: inc/templates/_nav.php:137
+msgid "síguenos en <br> redes sociales"
+msgstr "follow us on <br> social networks"
+
+#: inc/templates/_nav.php:154
+msgid "Términos de uso y políticas de privacidad"
+msgstr "Terms of Use and Privacy Policy"
+
+#: inc/templates/_nav.php:158
+msgid "Derechos reservados © Enrique Olvera,"
+msgstr "All Rights Reserved © Enrique Olvera,"
+
+#: inc/templates/_nosotros.php:21
+msgid "descarga nuestro menú"
+msgstr "Download our menu"
+
+#: inc/templates/_nosotros.php:34
+msgid "Servicio a domicilio: "
+msgstr "Home Delivery:"
+
+#: inc/templates/_nosotros.php:35
+msgid "Rappi, UberEats"
+msgstr "Rappi, UberEats"
+
+#~ msgid "Menú desayunos"
+#~ msgstr "Breakfast menu"
+
+#~ msgid "Menú comidas"
+#~ msgstr "Meals menu"
+
+#~ msgid "- Eno Theme -"
+#~ msgstr "- Eno Theme -"
+
+#~ msgid "Configuración básica para cualquier tema desarrollado por El Cultivo"
+#~ msgstr "Basic configuration for any theme developed by El Cultivo"
+
+#~ msgid "El Cultivo"
+#~ msgstr "El Cultivo"
+
+#~ msgid "http://elcultivo.mx"
+#~ msgstr "http://elcultivo.mx"
+
+#~ msgid "Pide por "
+#~ msgstr "asks for"
+
+#~ msgid "Rappi"
+#~ msgstr "Rappi"
+
+#~ msgid "Page %s"
+#~ msgstr "Page %s"
+
+#~ msgid "tienda"
+#~ msgstr "shop"
+
+#~ msgid "Desayunos"
+#~ msgstr "Breakfasts"
+
+#~ msgid "¿Mostrar  nombre en el contenido?"
+#~ msgstr "Show name in the content?"
+
+#~ msgid "Subrayado"
+#~ msgstr "Underline"
+
+#~ msgid "Subtílulo"
+#~ msgstr "Subtitle"
+
+#~ msgid "Cursiva"
+#~ msgstr "Italic"
+
+#~ msgid "Columna izquierda"
+#~ msgstr "Left Column"
+
+#~ msgid "Columna derecha"
+#~ msgstr "Left Column"
+
+#~ msgid "Menú"
+#~ msgstr "Menu"
+
+#~ msgid "nosotros"
+#~ msgstr "About Us"
+
+#~ msgid "menú"
+#~ msgstr "menu"
+
+#~ msgid "Español"
+#~ msgstr "Spanish"
+
+#~ msgid "English"
+#~ msgstr "English"

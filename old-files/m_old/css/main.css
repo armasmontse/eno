@@ -1,0 +1,926 @@
+@font-face {
+    font-family: "Bold";
+    src: url('../../fonts/CaeciliaLTStd-Bold.eot');
+    src: url('../../fonts/CaeciliaLTStd-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/CaeciliaLTStd-Bold.woff') format('woff'),
+         url('../../fonts/CaeciliaLTStd-Bold.ttf') format('truetype'),
+         url('../../fonts/CaeciliaLTStd-Bold.svg#CaeciliaLTStd-Bold') format('svg');
+}
+
+@font-face {
+    font-family: "BoldItalic";
+    src: url('../../fonts/CaeciliaLTStd-BoldItalic.eot');
+    src: url('../../fonts/CaeciliaLTStd-BoldItalic.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/CaeciliaLTStd-BoldItalic.woff') format('woff'),
+         url('../../fonts/CaeciliaLTStd-BoldItalic.ttf') format('truetype'),
+         url('../../fonts/CaeciliaLTStd-BoldItalic.svg#CaeciliaLTStd-BoldItalic') format('svg');
+}
+
+@font-face {
+    font-family: "Heavy";
+    src: url('../../fonts/CaeciliaLTStd-Heavy.eot');
+    src: url('../../fonts/CaeciliaLTStd-Heavy.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/CaeciliaLTStd-Heavy.woff') format('woff'),
+         url('../../fonts/CaeciliaLTStd-Heavy.ttf') format('truetype'),
+         url('../../fonts/CaeciliaLTStd-Heavy.svg#CaeciliaLTStd-Heavy') format('svg');
+}
+
+@font-face {
+    font-family: "HeavyItalic";
+    src: url('../../fonts/CaeciliaLTStd-HeavyItalic.eot');
+    src: url('../../fonts/CaeciliaLTStd-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/CaeciliaLTStd-HeavyItalic.woff') format('woff'),
+         url('../../fonts/CaeciliaLTStd-HeavyItalic.ttf') format('truetype'),
+         url('../../fonts/CaeciliaLTStd-HeavyItalic.svg#CaeciliaLTStd-HeavyItalic') format('svg');
+}
+
+@font-face {
+    font-family: "Italic";
+    src: url('../../fonts/CaeciliaLTStd-Italic.eot');
+    src: url('../../fonts/CaeciliaLTStd-Italic.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/CaeciliaLTStd-Italic.woff') format('woff'),
+         url('../../fonts/CaeciliaLTStd-Italic.ttf') format('truetype'),
+         url('../../fonts/CaeciliaLTStd-Italic.svg#CaeciliaLTStd-Italic') format('svg');
+}
+
+@font-face {
+    font-family: "Light";
+    src: url('../../fonts/CaeciliaLTStd-Light.eot');
+    src: url('../../fonts/CaeciliaLTStd-Light.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/CaeciliaLTStd-Light.woff') format('woff'),
+         url('../../fonts/CaeciliaLTStd-Light.ttf') format('truetype'),
+         url('../../fonts/CaeciliaLTStd-Light.svg#CaeciliaLTStd-Italic') format('svg');
+}
+
+@font-face {
+    font-family: "LightItalic";
+    src: url('../../fonts/CaeciliaLTStd-LightItalic.eot');
+    src: url('../../fonts/CaeciliaLTStd-LightItalic.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/CaeciliaLTStd-LightItalic.woff') format('woff'),
+         url('../../fonts/CaeciliaLTStd-LightItalic.ttf') format('truetype'),
+         url('../../fonts/CaeciliaLTStd-LightItalic.svg#CaeciliaLTStd-LightItalic') format('svg');
+}
+
+@font-face {
+    font-family: "Roman";
+    src: url('../../fonts/CaeciliaLTStd-Roman.eot');
+    src: url('../../fonts/CaeciliaLTStd-Roman.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/CaeciliaLTStd-Roman.woff') format('woff'),
+         url('../../fonts/CaeciliaLTStd-Roman.ttf') format('truetype'),
+         url('../../fonts/CaeciliaLTStd-Roman.svg#CaeciliaLTStd-Roman') format('svg');
+}
+
+@font-face {
+   font-family: "Calibri";
+   src: url("../../fonts/Calibri.eot");
+   src: url("../../fonts/Calibri.eot?#amocristalab") format("embedded-opentype"),
+        url("../../fonts/Calibri.woff") format("woff"),
+        url("../../fonts/Calibri.ttf") format("truetype"),
+        url("../../fonts/Calibri.svg#Calibri") format("svg");
+}
+
+
+@font-face {
+   font-family: "Calibri-light";
+   src: url("../../fonts/Calibril-light.eot");
+   src: url("../../fonts/Calibril-light.eot?#amocristalab") format("embedded-opentype"),
+        url("../../fonts/Calibril-light.woff") format("woff"),
+        url("../../fonts/Calibril-light.ttf") format("truetype"),
+        url("../../fonts/Calibril-light.svg#Calibri-Light") format("svg");
+}
+
+@font-face {
+   font-family: "Calibri-italic";
+   src: url("../../fonts/Calibri-Italic.eot");
+   src: url("../../fonts/Calibri-Italic.eot?#amocristalab") format("embedded-opentype"),
+        url("../../fonts/Calibri-Italic.woff") format("woff"),
+        url("../../fonts/Calibri-Italic.ttf") format("truetype"),
+        url("../../fonts/Calibri-Italic.svg#Calibri-Italic") format("svg");
+}
+
+
+@font-face {
+   font-family: "Calibri-bold";
+   src: url("../../fonts/Calibri-Bold.eot");
+   src: url("../../fonts/Calibri-Bold.eot?#amocristalab") format("embedded-opentype"),
+        url("../../fonts/Calibri-Bold.woff") format("woff"),
+        url("../../fonts/Calibri-Bold.ttf") format("truetype"),
+        url("../../fonts/Calibri-Bold.svg#Calibri-Bold") format("svg");
+}
+
+@font-face {
+   font-family: "Calibri-bolditalic";
+   src: url("../../fonts/Calibri-Bold-Italic.eot");
+   src: url("../../fonts/Calibri-Bold-Italic.eot?#amocristalab") format("embedded-opentype"),
+        url("../../fonts/Calibri-Bold-Italic.woff") format("woff"),
+        url("../../fonts/Calibri-Bold-Italic.ttf") format("truetype"),
+        url("../../fonts/Calibri-Bold-Italic.svg#Calibri-BoldItalic") format("svg");
+}
+
+body{
+	padding: 0px;
+	margin: 0px;
+	color:#4C4B4D;
+}
+
+#navegacion{
+	position: fixed;
+	top:3%;
+	left:3%;
+	z-index:9;
+	cursor:pointer;
+	width:36px;
+	height:24px;
+}
+
+.header p{
+	margin-left:15px;
+}
+
+.menu-principal a:link{
+	font-size:11px;
+	font-family:Bold;
+	color:#FFF;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+.menu-principal a:visited{
+	font-size:11px;
+	font-family:Bold;
+	color:#FFF;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+.menu-principal a:hover{
+	text-decoration: line-through;
+}
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+li{
+	list-style:none;
+}
+
+.botones-menu-navegacion{
+	margin-top:-4px;
+}
+
+.header{
+	background-color:#000;
+	background-repeat: no-repeat;
+	width:124px;
+	height:180px;
+	position:fixed;
+	top:3%;
+	left:6%;
+	z-index:9;
+	font-size:11px;
+	font-family:Bold;
+	color:#FFF;
+	letter-spacing: 1px;
+	padding-top:6px;
+	text-align: left;
+	display:none;
+}
+
+.home{
+	display: block;
+	position: relative;
+	width: 100%;
+}
+
+.logo{
+	top:100px;
+	position:absolute;
+	width:120px;
+	left:50%;
+	margin-left:-60px;
+}
+
+.concepto{
+	position:relative;
+	background-color:#FFF;
+	width:100%;
+	padding-top:48px;
+
+}
+
+.contiene-concepto{
+	width:80%;
+	text-align: center;
+	font-family: Roman;
+	font-size:12px;
+	color:#4C4B4D;
+	letter-spacing: 1px;
+	padding-bottom:54px;
+
+}
+
+.titulo-concepto{
+	margin-bottom:47px;
+	font-size:23px;
+	font-family:Bold;
+	letter-spacing: 1px;
+	color:#E63328;
+}
+
+.logos-concepto {
+	width:118px;
+	height:76px;
+	padding:0px;
+	margin:0px;
+	border:0px;
+	overflow:hidden;
+	position:relative;
+}
+
+.logos-concepto img {
+	float:left;
+	position:absolute;
+	left:0px;
+	top:0px;
+	display:none;
+}
+
+
+.menu{
+	display: block;
+	position: relative;
+	width: 100%;
+}
+
+
+
+.contenido-menu{
+	background-image:url("../../img/barra-menu.png");
+	width:267px;
+	height:155px;
+	margin-left:50px;
+	position:absolute;
+	bottom:5px;
+}
+
+.catering{
+	position:relative;
+	background-color:#FFF;
+	width:100%;
+	padding-bottom:90px;
+}
+
+.contiene-catering{
+	width:100%;
+	margin-top:75px;
+	text-align: center;
+	font-family: Roman;
+	font-size:12px;
+	color:#4C4B4D;
+	letter-spacing: 1px;
+	padding-bottom:54px;
+	position:relative;
+
+}
+
+.img-catering{
+	text-align: center;
+}
+
+.txt-catering{
+	width:100%;
+	background-image: url("../img/barra-catering.png");
+	position:relative;
+	right:0px;
+	text-align:center;
+}
+
+.titulo-catering{
+	font-family: Bold;
+	font-size:20px;
+	letter-spacing:1px;
+	color:#E63328;
+}
+
+.texto-catering{
+	font-family: Roman;
+	font-size:12px;
+	letter-spacing: 1px;
+	width:80%;
+	padding-top:15px;
+}
+
+.contacto-catering, .llenar-formulario{
+	font-family: Bold;
+	font-size:12px;
+	letter-spacing: 1px;
+	margin-top:18px;
+	cursor:pointer;
+}
+
+.llenar-formulario a:link, a:active, a:visited{
+	font-family: Bold;
+	font-size:12px;
+	letter-spacing: 1px;
+	text-decoration:none;
+	color:#4C4B4D;
+}
+
+.llenar-formulario a:hover{
+	text-decoration: line-through;
+}
+
+.descarga-kit{
+	margin-left:30px;
+}
+
+.contacto-catering img, .llenar-formulario img{
+	vertical-align: middle;
+	margin-left:10px;
+}
+
+.botones-menu{
+	color:#fff;
+	font-family: Light;
+	font-size:12px;
+	text-align:center;
+	position:relative;
+	padding-top:10px;
+}
+
+.botones-menu-ubicacion{
+	color:#000;
+	font-family: Bold;
+	font-size:12px;
+	text-align:center;
+	position:relative;
+	padding-top:10px;
+}
+
+.boton-virreyes, .boton-petrarca, .boton-palmas, .boton-roma, .boton-virreyes-ubicacion, .boton-petrarca-ubicacion, .boton-palmas-ubicacion, .boton-roma-ubicacion{
+	cursor:pointer;
+	padding-right:9px;
+	padding-left:9px;
+}
+
+.boton-virreyes, .boton-virreyes-ubicacion{
+	text-decoration: line-through;
+	color:#E63328;
+}
+
+.txt-menu{
+	font-size:10px;
+	color:#FFF;
+	font-family: Roman;
+	margin-left:13px;
+	margin-top:10px;
+}
+
+.descarga-virreyes, .descarga-petrarca, .descarga-palmas, .descarga-roma{
+	font-size:11px;
+	font-family: Calibri;
+	color:#FFF;
+	margin-left:3px;
+}
+
+
+
+
+.descarga-virreyes img, .descarga-petrarca img, .descarga-palmas img, .descarga-roma img{
+	vertical-align: middle;
+	padding-left:10px;
+}
+
+.descarga-virreyes a, a:link{
+	font-size:11px;
+	font-family: Calibri;
+	color:#FFF;
+	text-decoration: none;
+	letter-spacing: 0px;
+}
+
+.descarga-petrarca a, a:link{
+	font-size:11px;
+	font-family: Calibri;
+	color:#FFF;
+	text-decoration: none;
+	letter-spacing: 0px;
+}
+
+.descarga-palmas a, a:link{
+	font-size:11px;
+	font-family: Calibri;
+	color:#FFF;
+	text-decoration: none;
+	letter-spacing: 0px;
+}
+
+.descarga-roma a, a:link{
+	font-size:11px;
+	font-family: Calibri;
+	color:#FFF;
+	text-decoration: none;
+	letter-spacing: 0px;
+}
+
+.descarga-virreyes a:hover{text-decoration: line-through;}
+.descarga-petrarca a:hover{text-decoration: line-through;}
+.descarga-palmas a:hover{text-decoration: line-through;}
+.descarga-roma a:hover{text-decoration: line-through;}
+
+.descarga-petrarca, .descarga-palmas, .descarga-roma{
+	display:none;
+}
+
+.imagen3{
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 550px;
+	background: url('../img/foto2.jpg') no-repeat fixed center center;	
+	background-size: cover;
+}
+
+.logos-bolsa {
+	width:101px;
+	height:102px;
+	padding:0px;
+	margin:0px;
+	border:0px;
+	overflow:hidden;
+	position:relative;
+	margin-top:-51px;
+}
+
+.logos-bolsa img {
+	float:left;
+	position:absolute;
+	left:0px;
+	top:0px;
+	display:none;
+}
+
+.logo-bolsa1{
+	display:none;
+}
+
+.bolsa{
+	position:relative;
+	background-color:#FFF;
+	width:100%;
+}
+
+.contiene-bolsa{
+	width:705px;
+	margin-top:18px;
+	text-align: center;
+	font-family: Roman;
+	font-size:12px;
+	color:#4C4B4D;
+	letter-spacing: 1px;
+	height:262px;
+}
+
+.titulo-bolsa{
+	font-family: Bold;
+	font-size:19px;
+	padding-bottom:25px;
+}
+
+.escribenos, .vacantes{
+	font-size:12px;
+	font-family:Bold;
+	margin-top:25px;
+}
+
+.talento a:link{
+	font-size:12px;
+	font-family:Bold;
+	text-decoration: none;
+	color:#4C4B4D;
+	letter-spacing: 1px;
+}
+
+.talento a:hover{
+	text-decoration: line-through;
+}
+
+.vacantes a:link{
+	font-size:12px;
+	font-family:Bold;
+	text-decoration:none;
+	color:#4C4B4D;
+}
+
+.vacantes a:hover{
+	text-decoration:line-through;
+}
+
+.vacantes img {
+	vertical-align: middle;
+	margin-left:10px;
+}
+
+
+.galeria{
+	margin-top:0px;
+	font-size:0px;
+}
+
+.galeria1, .galeria2, .galeria3, .galeria4, .galeria5, .galeria6, .galeria7, .galeria8, .galeria9, .galeria10, .galeria11{
+	width:100%;
+}
+
+.galeria2, .galeria3, .galeria4, .galeria5, .galeria6, .galeria7, .galeria8, .galeria9, .galeria10, .galeria11{
+	display:none;
+}
+
+
+
+.navegacion-galeria{
+	position:relative;
+	color:#FFF;
+	font-family: Bold;
+	margin-top:-25px;
+	margin-left:15px;
+	font-size:13px;
+}
+
+.boton-galeria1, .boton-galeria2, .boton-galeria3, .boton-galeria4, .boton-galeria5, .boton-galeria6, .boton-galeria7{
+	margin-left:25px;
+	cursor:pointer;
+}
+
+.activo-galeria{
+	position:absolute;
+	left:19px;
+	top:-3px;
+}
+
+.credo{
+	width:100%;
+}
+
+.ubicacion{
+	position:relative;
+	background-color:#FFF;
+	width:100%;
+}
+
+.contiene-ubicacion{
+	width:98%;
+	margin-top:125px;
+	font-family: Roman;
+	font-size:12px;
+	color:#4C4B4D;
+	letter-spacing: 1px;
+	text-align:left;
+	position:relative;
+
+}
+
+.footer{
+	position:relative;
+	background-color:#000;
+	width:100%;
+	height:140px;
+	margin-top:98px;
+	color:#FFF;
+	font-family:Calibri;
+	font-size:11px;
+	letter-spacing: 1px;
+}
+
+.redes{
+	padding-top:30px;
+	margin-bottom:15px;
+	position:relative;
+}
+
+.redes img{
+	margin-left:10px;
+	margin-right:10px;
+	vertical-align: middle;
+}
+
+.mapa-virreyes, .mapa-petrarca, .mapa-palmas, .mapa-roma{
+	width:100%;
+	height:385px;
+	position:relative;
+	right:0px;
+	top:0px;	
+	z-index:90;
+	text-align: center;
+}
+
+.muestra-mapa-virreyes, .muestra-mapa-petrarca, .muestra-mapa-palmas, .muestra-mapa-roma{
+	width:100%;
+	height:385px;
+	text-align: center;
+}
+
+
+
+.numero-telefono{
+	display:none;
+	margin-left:10px;
+}
+
+.boton-telefono, .boton-correo{
+	cursor:pointer;
+}
+
+.practicas-bolsa, .vacantes-bolsa{
+	display:none;
+}
+
+.boton-vacantes, .boton-practicas{
+	cursor:pointer;
+}
+
+.solicitud-bolsa{
+	margin-left:45px;
+}
+
+.solicitud-bolsa a:link{
+	font-size:12px;
+	font-family:Bold;
+	color:#4C4B4D;
+	letter-spacing: 1px;
+}
+
+.solicitud-bolsa a:hover{
+	text-decoration: line-through;
+}
+
+.solicitud-bolsa img{
+	vertical-align: middle;
+	margin-left:10px;
+}
+
+.regresa{
+	font-size:12px;
+	font-family:Bold;
+	color:#E63328;
+	cursor:pointer;
+	margin-top:45px;
+
+}
+
+.regresa img{
+	vertical-align: middle;
+	margin-left:1px;
+}
+
+.uno, .dos-activo, .tres-activo, .cuatro-activo, .cinco-activo, .seis-activo, .siete-activo, .ocho-activo, .nueve-activo, .diez-activo, .once-activo{
+	display:none;
+	cursor:pointer;
+	float:left;
+	width:18px;
+}
+
+.uno-activo, .dos, .tres, .cuatro, .cinco, .seis, .siete, .ocho, .nueve, .diez, .once{
+	cursor:pointer;
+	float:left;
+	width:18px;
+}
+
+.contenidos-ubicacion{
+	width:306px;
+	height:384px;
+	background-image:url("../../img/cuadro-sucursales/cuadro-sucursales-cel.png");
+	position:relative;
+	background-repeat: no-repeat;
+	text-align: left;
+}
+
+.ubicacion-virreyes, .ubicacion-petrarca, .ubicacion-palmas, .ubicacion-roma{
+	margin-top:25px;
+	margin-left:10px;
+	font-family:Roman;
+	letter-spacing: 1px;
+	width:306px;
+
+}
+
+.logo-virreyes-ubicacion, .logo-petrarca-ubicacion, .logo-palmas-ubicacion, .logo-roma-ubicacion{
+	float:left;
+	vertical-align: middle;
+	margin-right:20px;
+	margin-bottom: 5px;
+}
+
+.telefono-virreyes, .telefono-petrarca, .telefono-palmas, .telefono-roma{
+	font-family: Bold;
+	font-size:12px;
+	letter-spacing: 1px;
+}
+
+.horario-virreyes, .horario-palmas{
+	font-family: Bold;
+	font-size:12px;
+	letter-spacing: 1px;
+	margin-left:10px;
+	margin-top:27px;
+}
+
+.horario-petrarca, .horario-roma{
+	font-family: Bold;
+	font-size:12px;
+	letter-spacing: 1px;
+	margin-left:10px;
+	margin-top:20px;
+}
+
+.adomicilio-virreyes,  .adomicilio-palmas, .adomicilio-roma{
+	margin-left:10px;
+	margin-top:27px;
+	font-family: Roman;
+	font-size:12px;
+	letter-spacing: 0px;
+}
+
+.adomicilio-petrarca{
+	margin-left:10px;
+	margin-top:20px;
+	font-family: Roman;
+	font-size:12px;
+	letter-spacing: 0px;
+}
+
+.adomicilio-virreyes img, .adomicilio-petrarca img, .adomicilio-palmas img, .adomicilio-roma img{
+	float:left;
+	margin-right:5px;
+
+}
+
+.pedido-virreyes, .pedido-petrarca, .pedido-palmas, .pedido-roma{
+	margin-top:10px;
+}
+
+.mapa-virreyes-domicilio, .mapa-petrarca-domicilio, .mapa-palmas-domicilio, .mapa-roma-domicilio{
+	margin-top:10px;
+	font-family: Roman;
+	font-size:12px;
+	letter-spacing: 0px;
+	margin-left:10px;
+	cursor:pointer;
+}
+
+.mapa-virreyes-domicilio img, .agrandar-virreyes img, .mapa-petrarca-domicilio img, .agrandar-petrarca img, .mapa-palmas-domicilio img, .agrandar-palmas img, .agrandar-roma img{
+	margin-right:5px;
+	vertical-align: middle;
+}
+
+.agrandar-virreyes, .agrandar-petrarca, .agrandar-palmas, .agrandar-roma{
+	margin-left:10px;
+	margin-top:27px;
+	font-family: Bold;
+	font-size:12px;
+	letter-spacing: 0px;
+}
+
+.agrandar-virreyes a:link, .agrandar-petrarca a:link, .agrandar-palmas a:link, .agrandar-roma a:link{
+	font-family: Bold;
+	font-size:12px;
+	letter-spacing: 0px;
+	text-decoration: none;
+	color:#4C4B4D;
+}
+
+.agrandar-virreyes a:hover, .agrandar-petrarca a:hover, .agrandar-palmas a:hover, .agrandar-roma a:hover{
+	text-decoration: line-through;
+}
+
+.ubicacion-petrarca, .ubicacion-palmas, .mapa-petrarca, .mapa-palmas, .mapa-roma, .ubicacion-roma{
+	display:none;
+}
+
+.boton-facturacion, .boton-llenar{
+	cursor:pointer;
+}
+
+.contiene-factura{
+	position:fixed;
+	height:525px;
+	width:369px;
+	background-image:url(../img/cuadro-facturacion/cuadro.png);
+	background-repeat:no-repeat;
+	top:50px;
+	left:55px;
+	z-index:10;
+	display:none;
+}
+
+.cerrar, .cerrar-catering{
+	position:absolute;
+	right:10px;
+	top:10px;
+	cursor:pointer;
+	z-index:2;
+}
+
+.formulario-factura{
+	width:360px;
+	height:520px;
+	margin-top:4px;
+}
+
+.formulario-catering{
+	position:absolute;
+	height:297px;
+	width:236px;
+	background-image:url(../../img/cuadro-catering/cuadro.png);
+	background-repeat:no-repeat;
+	top:100px;
+	left:10px;
+	z-index:10;
+	font-size:11px;
+	color:#FFF;
+	text-align:left;
+	letter-spacing: 1px;
+	display:none;
+}
+
+.contenido-formulario-catering{
+	width:223px;
+	height:250px;
+	margin-left:2px;
+}
+
+
+.logos-news img {
+	float:left;
+	position:absolute;
+	left:0px;
+	top:0px;
+	display:none;
+}
+
+
+
+.animacion-galeria{
+    background-color:black;
+    width:100%;
+}
+
+
+.popup-cafe{
+	position:fixed;
+	top:20px;
+	right:15px;
+	width:180px;
+	height:205px;
+	z-index:100;
+}
+
+.cerrar-cafe{
+	cursor:pointer;
+	position:absolute;
+	right:10px;
+	top:15px;
+}
+
+.closeCafe{
+	cursor:pointer;
+	z-index:101;
+	width:100%;
+	height:30px;
+	position:absolute;
+	top:0;
+}
+
+.fondo-falso-virreyes,.fondo-falso-petrarca, .fondo-falso-palmas{
+	position:fixed;
+	width:100%;
+	height:100%;
+	z-index:100;
+	cursor:pointer;
+}
+
+.fondo-falso-virreyes, .fondo-falso-petrarca, .fondo-falso-palmas{
+	display:none;
+}
+
+.mapa-domicilio-palmas, .mapa-domicilio-virreyes, .mapa-domicilio-petrarca{
+	position:absolute;
+	z-index:101;
+	display:none;
+	width:96%;
+	left:50%;
+	margin-left:-48%;
+	top:50px;
+}
+
+.cerrar-domicilio-virreyes, .cerrar-domicilio-petrarca, .cerrar-domicilio-palmas{
+	position:absolute;
+	cursor:pointer;
+	top:5px;
+	right:5px;
+}
+
+.map-virreyes, .map-petrarca, .map-palmas{
+	width:100%;
+}

@@ -1,0 +1,44 @@
+%input {
+    -webkit-appearance: none;
+    -moz-appereance: none;
+    appereance: none;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    outline: none;
+
+    @mixin placeholder-styles {
+    }
+
+    &::-webkit-input-placeholder { @include placeholder-styles; }
+    &:-moz-placeholder {@include placeholder-styles;}
+  	&::-moz-placeholder {@include placeholder-styles;}
+    &:-ms-input-placeholder { @include placeholder-styles;}
+}
+
+
+%input-header-form, .input-header-form {
+    @extend %input;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #F4F0E6;
+    font-family: f(sans);
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 16px;
+    @mixin placeholder-styles {
+        color: rgba(244, 240, 230, 0.5);
+        font-family: f(sans);
+        font-size: 14px;
+        font-style: italic;
+        line-height: 16px;
+    }
+
+    &::-webkit-input-placeholder { @include placeholder-styles; }
+    &:-moz-placeholder {@include placeholder-styles;}
+    &::-moz-placeholder {@include placeholder-styles;}
+    &:-ms-input-placeholder { @include placeholder-styles;}
+
+}

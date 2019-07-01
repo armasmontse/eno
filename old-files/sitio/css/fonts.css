@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "Light";
+    src: url('../fonts/CaeciliaLTStd-Light.eot');
+    src: url('../fonts/CaeciliaLTStd-Light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/CaeciliaLTStd-Light.woff') format('woff'),
+         url('../fonts/CaeciliaLTStd-Light.ttf') format('truetype'),
+         url('../fonts/CaeciliaLTStd-Light.svg#CaeciliaLTStd-Italic') format('svg');
+}
+
+@font-face {
+    font-family: "Roman";
+    src: url('../fonts/CaeciliaLTStd-Roman.eot');
+    src: url('../fonts/CaeciliaLTStd-Roman.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/CaeciliaLTStd-Roman.woff') format('woff'),
+         url('../fonts/CaeciliaLTStd-Roman.ttf') format('truetype'),
+         url('../fonts/CaeciliaLTStd-Roman.svg#CaeciliaLTStd-Roman') format('svg');
+}
+
+@font-face {
+   font-family: "Calibri-light";
+   src: url("../fonts/Calibril-light.eot");
+   src: url("../fonts/Calibril-light.eot?#amocristalab") format("embedded-opentype"),
+        url("../fonts/Calibril-light.woff") format("woff"),
+        url("../fonts/Calibril-light.ttf") format("truetype"),
+        url("../fonts/Calibril-light.svg#Calibri-Light") format("svg");
+}
+
+@font-face {
+   font-family: "Calibri-bold";
+   src: url("../fonts/Calibri-Bold.eot");
+   src: url("../fonts/Calibri-Bold.eot?#amocristalab") format("embedded-opentype"),
+        url("../fonts/Calibri-Bold.woff") format("woff"),
+        url("../fonts/Calibri-Bold.ttf") format("truetype"),
+        url("../fonts/Calibri-Bold.svg#Calibri-Bold") format("svg");
+}
+
+@font-face {
+   font-family: "Calibri";
+   src: url("../fonts/Calibri.eot");
+   src: url("../fonts/Calibri.eot?#amocristalab") format("embedded-opentype"),
+        url("../fonts/Calibri.woff") format("woff"),
+        url("../fonts/Calibri.ttf") format("truetype"),
+        url("../fonts/Calibri.svg#Calibri") format("svg");
+}

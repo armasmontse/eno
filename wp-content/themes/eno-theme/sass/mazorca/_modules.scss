@@ -1,0 +1,20 @@
+//_________________________ Modules _________________________ \\
+/* _____ G E N E R A L _____ */
+@import "modules/general/_header";
+@import "modules/general/_footer";
+@import "modules/general/_notifications";
+@import "modules/general/_seasson";
+
+
+/* _____ P A G E S _____ */
+@import "modules/pages/_home";
+@import "modules/pages/_error";
+
+/* _____ S E C T I O N S _____ */
+@import "modules/sections/_nosotros";
+@import "modules/sections/_de-aqui";
+@import "modules/sections/_contacto";
+@import "modules/sections/_comunidad";
+@import "modules/sections/_menu";
+@import "modules/sections/_servicios";
+@import "modules/sections/_tienda";

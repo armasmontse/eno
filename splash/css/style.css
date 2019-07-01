@@ -1,0 +1,200 @@
+
+@media only screen and (max-width: 900px) {
+	
+	.imagen_eno{
+		display: none !important;
+	}
+
+	body {
+		background-image: url("../images/backeno.png");
+		background-color: #e0dccc;
+		background-repeat: no-repeat;
+		font-family: 'Poppins','Open Sans',Arial, Helvetica, sans-serif;
+		color: #b5792f;
+	}
+
+	.intro {
+		float: left;
+		width: 40%; /* three boxes (use 25% for four, and 50% for two, etc) */
+		padding: 50px; /* if you want space between the images */
+		margin-top: 100px;
+	}
+
+	input, textarea, select, .login-select, .form-control{
+		font-family: 'Poppins','Open Sans',Arial, Helvetica, sans-serif;
+		border:none;
+		border-bottom: 1px solid #b5792f; 
+		border-radius: 0px;
+		background:transparent;
+		color: #b5792f;
+		font-size: 14px;
+		margin: 0;
+		outline: medium none;
+		padding: 8px 10px 8px 0;
+	}
+
+	button {
+		border:none;
+		cursor:pointer;
+		text-decoration: none;
+		transition: all .3s ease 0s;
+	}
+
+	.button {
+		font-size:13px;
+		color:#b5792f;
+		border:none;
+		transition: all .3s ease 0s;
+		outline: none;
+		position: relative;	
+		letter-spacing:0.5px;
+	}
+
+	.button.rounded, .rounded{
+		border-radius:4px;
+	}
+	.button.full-rounded {
+		border-radius:50px;
+	}
+	.button:hover {
+		background-color:#b5792f;
+		color:#fff;
+		transition: all .3s ease 0s;
+	}
+	.button.medium  {
+		padding: 10px 37px 10px 37px;
+		display:inline-block;
+	}
+
+	a.ancla:link{
+		text-decoration: none;
+	}
+	a.ancla:visited{
+		text-decoration: none;
+	}
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 400px) and (min-width: 200px) {
+	body {
+		background-image: url("../images/backeno-movil.png") !important;
+		background-color: #e0dccc !important;
+		background-repeat: no-repeat !important;
+		font-family: 'Poppins','Open Sans',Arial, Helvetica, sans-serif !important;
+		color: #b5792f !important;
+	}
+	.intro {
+		float: left !important;
+		width: 75% !important; /* three boxes (use 25% for four, and 50% for two, etc) */
+		/*padding: 50px; */
+		margin-top: 100px !important;
+		text-align: justify !important;
+	}
+
+	.button.medium  {
+		padding: 10px 37px 10px 37px !important;
+		display:block !important;
+		margin-top: 10px !important;
+		width: 100% !important;
+	}
+
+	#email{
+		width: 100% !important;
+	}
+	
+
+	.imagen_eno{
+		display: none !important;
+	}
+
+
+}
+
+
+body {
+	background-image: url("../images/blank.png");
+	background-color: #e0dccc;
+	background-repeat: no-repeat;
+	font-family: 'Poppins','Open Sans',Arial, Helvetica, sans-serif;
+	color: #b5792f;
+	background-size: 100%;
+}
+
+.intro {
+	float: left;
+	width: 40%; /* three boxes (use 25% for four, and 50% for two, etc) */
+	padding: 50px; /* if you want space between the images */
+	margin-top: 150px;
+}
+.imagen_eno{
+	margin-top: -160px !important;
+	margin-bottom: : 100px !important;
+	margin-left: -20px !important;
+}
+
+input, textarea, select, .login-select, .form-control{
+	font-family: 'Poppins','Open Sans',Arial, Helvetica, sans-serif;
+	border:none;
+	border-bottom: 1px solid #b5792f; 
+	border-radius: 0px;
+	background:transparent;
+	color: #b5792f;
+	font-size: 14px;
+	margin: 0;
+	outline: medium none;
+	padding: 8px 10px 8px 0;
+}
+
+button {
+	border:none;
+	cursor:pointer;
+	text-decoration: none;
+	transition: all .3s ease 0s;
+}
+
+.button {
+	font-size:13px;
+	color:#b5792f;
+	border:none;
+	transition: all .3s ease 0s;
+	outline: none;
+	position: relative;	
+	letter-spacing:0.5px;
+}
+
+.button.rounded, .rounded{
+	border-radius:4px;
+}
+.button.full-rounded {
+	border-radius:50px;
+}
+.button:hover {
+	background-color:#b5792f;
+	color:#fff;
+	transition: all .3s ease 0s;
+}
+.button.medium  {
+	padding: 10px 37px 10px 37px;
+	display:inline-block;
+}
+
+a.ancla:link{
+	color: #bd772d;
+}
+a.ancla:visited{
+	text-decoration: none;
+	color: #bd772d;
+}
+
+
+
+
+
+
+
+

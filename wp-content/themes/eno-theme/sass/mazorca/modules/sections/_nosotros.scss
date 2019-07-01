@@ -1,0 +1,141 @@
+.nosotros {
+
+	@include under(break) {
+		text-align: center;
+		width: 100%;
+	}
+
+	/* C o l o r e s */
+	&__color {
+		height: auto;
+		min-height: 100vh;
+		@include under(second) {
+			height: 100%;
+			min-height: 100vh;
+
+			display: flex;
+			align-items: center;
+		}
+	}
+
+	&__box{
+		height: 100%;
+		min-height: 100vh;
+		padding: 0 2vw;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		color: white;
+		@include under(first) {
+			padding: 0 6vw;
+    	}
+
+	    @include under(break) {
+			justify-content: space-around;
+			justify-content: space-evenly;
+			height: auto;
+			text-align: center;
+			width: 100%;
+			max-width: 520px;
+			margin: 0 auto;
+			padding: 50px 6vw;
+		}
+
+		&--80 {
+			height: 100%;
+			min-height: 75%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		&--20 {
+			height: 100%;
+			min-height: 25%;
+		}
+
+
+	}
+
+	&__buttons {
+		width: 100%;
+		max-width: 80%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		@include under(lg-1200) {
+			max-width: 100%;
+		    flex-direction: column;
+		}
+	}
+
+	&__categoria {
+		@extend %sbtitle-content;
+		margin-bottom: 20px;
+		color: #E1DDCD;
+		@media (max-width: 1200px) and (max-height: 800px) {
+			// background-color: yellow;
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+		&.rappi {
+			display: flex;
+			margin-top: 25px;
+			margin-bottom: 0px;
+			p {
+				padding-right: 5px;
+			}
+			a {
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+			@media (max-width: 1200px) and (max-height: 800px) {
+				// background-color: yellow;
+				margin-top: 10px;
+			}
+		}
+	}
+
+	&__ttl {
+		@extend %title-sections;
+		margin-bottom: 30px;
+	}
+
+	&__download {
+		@extend %paragraph-download;
+
+		@include under(lg-1200) {
+			padding-bottom:20px;
+		}
+		@media (max-width: 1200px) and (max-height: 800px) {
+			// background-color: yellow;
+			padding-bottom:0px;
+		}
+	}
+
+	&__contenido {
+		@extend %paragraph-text;
+		color: #E1DDCD;
+		p {
+			strong {
+				font-weight: bold;
+			}
+			a {
+				text-decoration: underline;
+			}
+			em {
+				font-style: italic;
+			}
+		}
+	}
+
+	/* I m a g e n */
+	&__image {
+		height: auto;
+		min-height: 100vh;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+}

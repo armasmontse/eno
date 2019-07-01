@@ -1,0 +1,669 @@
+body, html{
+	margin:0;
+	padding:0;
+	background-color:#e1ddcd;
+	width:100%;
+	color:#000;
+}
+
+.boton-menu{
+	width:25px;
+	cursor:pointer;
+	position:fixed;
+	left:4.5%;
+	margin-top:50px;
+	border:0;
+}
+
+.main{
+	position:relative;
+	left:10%;
+	width:80%;
+	top:50px;
+	overflow:hidden;
+}
+
+.logo{
+	margin-top:0px;
+	margin-left:0;
+	width:84px;
+	position:relative;
+	vertical-align:middle;
+	border:0;
+}
+
+.frase{
+	font-family:Light;
+	margin-top:124px;
+	font-size:80px;
+	line-height:90px;
+	margin-left:0px;
+}
+
+.redes-top{
+	margin-top:52px;
+	font-size:15px;
+	line-height:20px;
+	font-family:Calibri-light;
+	margin-left:0px;
+	
+}
+
+.redes-top a:link, a:hover, a:visited, a:active{
+	font-family:Calibri-bold;
+	font-size:15px;
+	padding-right:15px;
+	text-decoration:none;
+	color:#000;
+}
+
+.pleca{
+	width:100%;
+	height:27px;
+	margin-top:56px;
+	background-image:url(../img/Pleca-01.svg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	left:0;
+	padding:0;
+}
+
+.pleca-sucursales{
+	width:100%;
+	height:27px;
+	background-image:url(../img/Pleca-01.svg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	left:0;
+	padding:0;
+}
+
+.menu-sucursales{
+	width:100%;
+	font-size:14px;
+	height:35px;
+	font-family: Light;
+	vertical-align:middle;
+	text-align:center;
+}
+
+.menu-sucursales a:link, a:visited, a:active{
+	font-size:14px;
+	font-family: Light;
+	vertical-align:middle;
+	margin-left:9.5%;
+	margin-right:9.5%;
+	color:#000;
+	text-decoration:none;
+}
+
+.menu-sucursales a:hover{
+	text-decoration:line-through;
+}
+
+.activo{
+	text-decoration:line-through;
+}
+
+.mapa{
+	margin-left:300px;
+	width:70%;
+	height:551px;
+	position:absolute;
+}
+
+.contiene-mapa-virreyes{
+	width:100%;
+	height:551px;
+}
+
+.texto-sucursales{
+	height:551px;
+	width:223px;
+	margin-left:35px;
+	margin-right:35px;
+	position: relative;
+	text-align:left;
+	overflow:hidden;
+}
+
+.sucursales-logo-virreyes{
+	width:120px;
+}
+
+.principal-sucursales{
+	color:#f42434;
+	font-family:Calibri-Bold;
+	font-size:13px;
+}
+
+.contenido-sucursales{
+	top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+	position:relative;
+	font-size:14px;
+	line-height:17px;
+	font-family:Light;
+	height:auto;
+}
+
+.contenido-sucursales p{
+	margin-bottom:35px;
+}
+
+.credo{
+	position:absolute;
+	margin-top:93px;
+	text-align:left;
+	width:100%;
+	left:45%;
+}
+
+.newsletter{
+	position:relative;
+	margin-top:124px;
+	width:100%;
+	left:0;
+}
+
+.titulo-newsletter{
+	font-family:Roman;
+	margin-left:38px;
+	font-size:40px;
+}
+
+.fecha{
+	position:absolute;
+	font-size:13px;
+	font-family:Calibri;
+	margin-left:74px;
+}
+
+.credo-falso{
+	margin-top:93px;
+	position:relative;
+	height:660px;
+}
+
+.lineas{
+	height:41px;
+}
+
+.titulo-credo{
+	font-family:Roman;
+	margin-left:32px;
+	font-size:40px;
+}
+
+.contiene-credo{
+	width:100%;
+	margin-top:0px;
+	overflow:hidden;
+}
+
+.contiene-newsletter{
+	width:65%;
+	margin-top:0px;
+	overflow:hidden;
+	position:relative;
+	text-align:left;
+	margin-left:35%;
+}
+
+.linea-credo{
+	width:100%;
+	height:1px;
+	margin-left:74px;
+}
+
+.linea-sucursales{
+	width:100%;
+	height:1px;
+	margin-top:62px;
+}
+
+.numero{
+	color:#f42434;
+	font-family:Calibri-bold;
+	font-size:13px;
+	margin-left:42px;
+}
+
+.texto-credo{
+	font-family:Light;
+	font-size:18px;
+	margin-left:14px;
+}
+
+.texto-newsletter{
+	font-family:Light;
+	font-size:18px;
+	margin-left:14px;
+}
+
+.texto-newsletter a:link, a:hover, a:visited, a:active{
+	font-family:Light;
+	font-size:18px;
+	text-decoration:none;
+	color:#000;
+	margin:0;
+	padding:0;
+}
+
+.sucursales{
+	margin-top:93px;
+	position:relative;
+}
+
+.titulo-sucursales{
+	font-family:Roman;
+	font-size:40px;
+}
+
+.logos-sucursales{
+	margin-top:55px;
+	position:relative;
+	text-align:center;
+	-ms-display: flex;
+	 display: flex;
+	 /* alineacion vertical */
+	 align-items: center;
+}
+
+.logo-petrarca{
+	height: 115px;
+	position: relative;
+	cursor:pointer;
+}
+
+.logo-virreyes{
+	height:102px;
+	position:relative;
+	cursor:pointer;
+	border:0;
+}
+
+
+.logo-palmas{
+	height:113px;
+	position:relative;
+	cursor:pointer;
+}
+
+.logo-roma{
+	height:100px;
+	position:relative;
+	cursor:pointer;
+}
+
+.separacion-sucursales{
+	position:relative;
+	vertical-align:middle;
+	margin-right:4%;
+	margin-left:4%;
+	width:2px; 
+	height:26px;
+}
+
+.footer{
+	width:100%;
+	position:relative;
+	margin-top:143px;
+	height:62px;
+}
+
+.footer-secciones{
+	width:100%;
+	position:relative;
+	margin-top:200px;
+	height:62px;
+}
+
+.linea-footer{
+	width:100%;
+	height:1px;
+}
+
+.contenido-footer{
+	position:relative;
+	left:10%;
+	width:80%;
+	top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.logo-uber, .logo-uber-bco{
+	height:18px;
+	vertical-align:middle;
+	position:relative;
+	margin-right:24px;
+}
+
+.logo-facebook, .logo-facebook-bco{
+	height:19px;
+	vertical-align:middle;
+	position:relative;
+	margin-right:24px;
+}
+
+.logo-instagram, .logo-instagram-bco{
+	height:14px;
+	vertical-align:middle;
+	position:relative;
+	margin-right:24px;
+}
+
+.logo-tumblr, .logo-tumblr-bco{
+	height:17px;
+	vertical-align:middle;
+	position:relative;
+	margin-right:24px;
+}
+
+.logo-eo, .logo-eo-bco{
+	height:17px;
+	vertical-align:middle;
+	position:relative;
+	margin-right:24px;
+}
+
+.derechos{
+	position:absolute;
+	right:0;
+	top:50%;
+	height:14px;
+	margin-top:-7px;
+	font-family:Roman;
+	font-size:14px;
+}
+
+.menu{
+	position:fixed;
+	top:0;
+	left:0;
+	width:0%;
+	height:100%;
+	background-color:#000;
+	z-index:101;
+	font-size:25px;
+	line-height:45px;
+	color:#FFF;
+	font-family:Roman;
+	display:none;
+}
+
+.menu a{
+	font-size:25px;
+	line-height:45px;
+	color:#FFF;
+	font-family:Roman;
+	text-decoration:none;
+}
+
+.botones-menu{
+	display:none;
+}
+
+.menu p, .redes-menu{
+	margin-left:12.5%;
+}
+
+.redes-menu{
+	margin-top:61px;
+	display:none;
+}
+
+.inicio-menu{
+	margin-top:138px;
+}
+
+.transparencia{
+	width:100%;
+	height:100%;
+	z-index:100;
+	position:fixed;
+	top:0;
+	left:0;
+	display:none;
+}
+
+.cerrar-menu{
+	margin-top:50px;
+	right:0px;
+	position:absolute;
+	cursor:pointer;
+}
+
+@media(max-width:1191px){
+	.separacion-sucursales{
+		margin-right:4%;
+		margin-left:4%;
+	}
+	
+	
+	
+	.menu-sucursales a:link, a:visited, a:active{
+		margin-left:7%;
+		margin-right:7%;
+	}
+
+}
+
+@media(max-width:1037px){
+	
+	
+	
+	.logos-sucursales{
+		margin-top:55px;
+		position:relative;
+		text-align:center;
+		-ms-display: none;
+		 display: block;
+		 /* alineacion vertical */
+		 align-items: center;
+}
+
+}
+
+@media(max-width:900px){
+	.main, .contenido-footer{
+		left:4.5%;
+		margin-left:40px;
+	}
+	
+	.frase{
+		font-size:50px;
+		line-height:60px;
+	}
+	
+	.credo{
+		width:90%;
+		left:0;
+	}
+	
+	.titulo-credo{
+		font-size:20px;
+		margin-left:20px;
+	}
+	
+	.titulo-newsletter{
+		font-size:20px;
+		margin-left:20px;
+	}
+	
+	.contiene-newsletter{
+		width:100%;
+		margin-top:0px;
+		overflow:hidden;
+		position:relative;
+		text-align:left;
+		margin-left:0%;
+	}
+	
+	.lineas{
+		height:21px;
+	}
+	
+	.linea-credo{
+		margin-left:48px;
+	}
+	
+	.numero{
+		margin-left:20px
+	}
+	
+	.texto-credo{
+		margin-left:10px;
+	}
+	
+	.separacion-sucursales{
+		margin-right:2%;
+		margin-left:2%;
+	}
+	
+	.titulo-sucursales{
+		font-size:30px;
+	}
+	
+	.logo-uber-bco, .logo-facebook-bco, .logo-instagram-bco, .logo-tumblr-bco, .logo-eo-bco{
+		margin-right:5%;
+	}
+	
+	.cerrar-menu{
+		height:15px;
+	}
+	
+	.fecha{
+		position:relative;
+		font-size:13px;
+		font-family:Calibri;
+		margin-left:48px;
+	}
+	
+
+}
+
+
+
+@media(max-width:750px){
+	.mapa{
+		position:relative;
+		margin-left:auto;
+		margin-right:auto;
+		width:100%;	
+	}
+	
+	.texto-sucursales{
+		position:relative;
+		margin-left:auto;
+		margin-right:auto;
+		width:100%;	
+	}
+}
+
+@media(max-width:700px){
+	.separacion-sucursales{
+		display:none;
+	}
+
+	.logo-roma, .logo-virreyes, .logo-petrarca, .logo-palmas{
+		margin-right:1%;
+		margin-left:1%;
+	}
+	
+	.derechos{
+		position:relative;
+		margin-top:20px;
+		margin-bottom:20px;
+	}
+	
+	.contenido-footer{
+		margin-top:10px;	
+	}
+	
+	.footer, .footer-secciones{
+		height:80px;	
+	}
+	
+	.menu a:link, a:hover, a:visited, a:active{
+		font-size:16px;
+		line-height:18px;
+	}
+	
+	.menu p, .redes-menu{margin-left:5%;}
+	
+	.menu-sucursales a:link, a:visited, a:active{
+		margin-left:4%;
+		margin-right:4%;
+	}
+	
+	
+}
+
+@media(max-width:600px){
+	.frase{
+		font-size:40px;
+		line-height:50px;
+	}
+	
+	.numero{
+		font-size:10px;	
+	}
+	
+	.texto-credo{
+		font-size:11px;
+	}
+	
+	.credo-falso{
+		height:590px;
+	}
+	
+	.logo-roma, .logo-virreyes, .logo-petrarca, .logo-palmas{
+		margin-right:2%;
+		margin-left:2%;
+		margin-top:40px;
+	}
+	
+	.titulo-sucursales{
+		font-size:28px;
+	}
+	
+	.menu a:link, a:hover, a:visited, a:active{
+		font-size:14px;
+		line-height:16px;
+	}
+	
+	.menu p, .redes-menu{margin-left:3%;}
+	
+	.redes-menu{
+		display:none;	
+	}
+	
+	.logo-uber-bco, .logo-facebook-bco, .logo-instagram-bco, .logo-tumblr-bco, .logo-eo-bco{
+		margin-right:50%;
+		margin-top:15px;
+	}
+	
+	.redes-menu{
+		text-align:center;	
+		margin-top:20px;
+	}
+	
+	.inicio-menu{
+		margin-top:100px;
+	}
+	
+	.texto-newsletter a:link, a:hover, a:visited, a:active{
+		font-size:14px;
+	}
+	
+	
+}

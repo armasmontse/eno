@@ -1,0 +1,548 @@
+.seasson {
+
+  &-spring {
+      .menu-color {
+        .header__logo--image {
+          .cls-1 {
+            fill: c(purple);
+          }
+        }
+      }
+      //_header
+      .view {
+        background-color: c(green-dark);
+      }
+
+      .nosotros__color {
+        background-color: c(purple);
+      }
+
+        .de-aqui {
+            &--back {
+              background-image: url("../images/de-aqui-green-2.svg");
+              background-color: c(green-dark);
+            }
+            &-collapse {
+              .header__btn--image .cls-1 {
+                fill: #0D1905;
+              }
+            }
+        }
+
+        .tienda {
+            &--back {
+                background-color: c(purple);
+            }
+            &-collapse {
+                .header__btn--image .cls-1 {
+                    fill: #2a1e2a;
+                }
+            }
+        }
+
+      .contacto {
+        color: c(purple);
+        &__sucursal {
+          color: rgba(79, 56, 80, 0.5);
+          &.is-active, &:hover {
+            color: c(purple);
+          }
+        }
+
+        &-color {
+          .cls-1 {
+            fill: c(purple);
+          }
+          .header__btn--image .cls-1 {
+            fill: #fff;
+          }
+        }
+      }
+
+      .contacto__image:hover .contacto__layer-back {
+           background-color: #4f3850;
+      }
+
+      .comunidad {
+            &__back {
+                background-color: c(green-light);
+                background-image: url("../images/comunidad-green-2.svg");
+            }
+
+        &-collapse {
+          .header__btn--image .cls-1 {
+            fill: #2F450B;
+          }
+        }
+      }
+
+      .menu {
+        color: c(green-dark);
+
+        &__box {
+            &.is_stuck {
+                .menu__items {
+                    &.first {
+                        color: rgba(55, 80, 36, 0.5);
+                    }
+                }
+            }
+        }
+        &__items {
+            color: rgba(55, 80, 36, 0.5);
+            &.first {
+                color: c(green-dark);
+            }
+          &.active {
+            color: c(green-dark) !important;
+          }
+        }
+
+        &-color {
+          .cls-1 {
+            fill: c(green-dark);
+          }
+        }
+
+        .img__hoja {
+          .cls-1 {
+              fill: c(green-dark);
+          }
+        }
+      }
+
+      .servicios {
+        background-color: c(beige-dark);
+        color: c(green-light);
+        &__form {
+              border: 1px solid c(green-light);
+        }
+
+        &__input {
+          color: c(green-light);
+          border-bottom: 1px solid c(green-light);
+          &::placeholder {
+      			color: c(green-light);
+      		}
+        }
+
+        &__btn {
+          color: c(green-light);
+        }
+
+        &-color {
+          .cls-1 {
+            fill: c(green-light);
+          }
+        }
+      }
+  }
+
+  &-summer {
+
+    //_header
+    .view {
+      background-color: c(orange-light);
+    }
+
+    .nosotros__color {
+      background-color: c(orange-dark);
+    }
+
+    .de-aqui {
+        &--back {
+            background-image: url("../images/de-aqui-orange-2.svg");
+            background-color: c(orange-light);
+        }
+
+      &-collapse {
+        .header__btn--image .cls-1 {
+          fill: #83410C;
+        }
+      }
+    }
+
+    .tienda {
+        &--back {
+            background-color: c(orange-dark);
+        }
+        &-collapse {
+            .header__btn--image .cls-1 {
+                fill: c(came-light);
+            }
+        }
+    }
+
+    .contacto {
+      color: c(orange-light);
+      &__sucursal {
+        color: rgba(182, 121, 47, 0.5);
+        &.is-active, &:hover {
+          color: c(orange-light);
+        }
+      }
+
+      &-color {
+        .cls-1 {
+            fill: c(orange-light);
+        }
+        .header__btn--image .cls-1 {
+            fill: #fff;
+        }
+      }
+    }
+
+    .contacto__image:hover .contacto__layer-back {
+          background-color: #B6792F;
+     }
+
+    .comunidad {
+        &__back {
+            background-color: c(blue);
+            background-image: url("../images/comunidad-blue-2.svg");
+        }
+
+      &-collapse {
+        .header__btn--image .cls-1 {
+          fill: #0E2842;
+        }
+      }
+    }
+
+    .menu {
+      color: c(orange-dark);
+
+        &__box {
+            &.is_stuck {
+                .menu__items {
+                    &.first {
+                        color: rgba(180, 89, 39, 0.5);
+                    }
+                }
+            }
+        }
+
+        &__items {
+            color: rgba(180, 89, 39, 0.5);
+            &.first {
+                color: c(orange-dark);
+            }
+            &.active {
+              color: c(orange-dark) !important;
+            }
+        }
+
+      &-color {
+        .cls-1 {
+          fill: c(orange-dark);
+        }
+      }
+
+      .img__hoja {
+        .cls-1 {
+            fill: c(orange-dark);
+        }
+      }
+    }
+
+    .servicios {
+      background-color: c(beige);
+      color: c(blue);
+
+      &__form {
+            border: 1px solid c(blue);
+      }
+
+      &__input {
+        color: c(blue);
+        border-bottom: 1px solid c(blue);
+        &::placeholder {
+    			color: c(blue);
+    		}
+      }
+
+      &__btn {
+        color: c(blue);
+      }
+
+      &-color {
+        .cls-1 {
+          fill: c(blue);
+        }
+      }
+    }
+
+  }
+
+  &-autumn {
+    //_header
+    .view {
+      background-color: c(came-light);
+    }
+
+    .nosotros__color {
+      background-color: c(brown-dark);
+    }
+
+    .de-aqui {
+      &--back {
+        background-image: url("../images/de-aqui-came-2.svg");
+        background-color: c(came-light);
+      }
+      &-collapse {
+        .header__btn--image .cls-1 {
+          fill: #4C0C03;
+        }
+      }
+    }
+
+    .tienda {
+        &--back {
+            background-color: c(brown-dark);
+        }
+        &-collapse {
+            .header__btn--image .cls-1 {
+                fill: #423a1a;
+            }
+        }
+    }
+
+    .contacto {
+      color: c(came-light);
+      &__sucursal {
+        color: rgba(139, 55, 29, 0.5);
+        &.is-active, &:hover {
+          color: c(came-light);
+        }
+      }
+
+      &-color {
+        .cls-1 {
+          fill: c(came-light);
+        }
+        .header__btn--image .cls-1 {
+          fill: #fff;
+        }
+      }
+    }
+     .contacto__image:hover .contacto__layer-back {
+          background-color: #8B371D;
+     }
+
+
+    .comunidad {
+        &__back {
+            background-color: c(golden);
+            background-image: url("../images/comunidad-orange-2.svg");
+        }
+
+      &-collapse {
+        .header__btn--image .cls-1 {
+          fill: #583802;
+        }
+      }
+    }
+
+    .menu {
+      color: c(brown-dark);
+
+      &__box {
+          &.is_stuck {
+              .menu__items {
+                  &.first {
+                      color: rgba(104, 90, 37, 0.5);
+                  }
+              }
+          }
+      }
+
+      &__items {
+        color: rgba(104, 90, 37, 0.5);
+        &.first {
+          color: c(brown-dark);
+        }
+        &.active {
+          color: c(brown-dark) !important;
+        }
+      }
+
+      &-color {
+        .cls-1 {
+          fill: c(brown-dark);
+        }
+      }
+
+      .img__hoja {
+        .cls-1 {
+            fill: c(brown-dark);
+        }
+      }
+
+    }
+
+    .servicios {
+      background-color: c(beige-dark);
+      color: c(golden);
+      &__form {
+            border: 1px solid c(golden);
+      }
+
+      &__input {
+        color: c(golden);
+        border-bottom: 1px solid c(golden);
+        &::placeholder {
+    			color: c(golden);
+    		}
+      }
+
+      &__btn {
+        color: c(golden);
+      }
+
+      &-color {
+        .cls-1 {
+          fill: c(golden);
+        }
+      }
+    }
+
+  }
+
+  &-winter {
+    //_header
+    .view {
+      background-color: c(purple-dark);
+    }
+
+    .nosotros__color {
+      background-color: c(came-dark);
+    }
+
+    .de-aqui {
+      &--back {
+        background-image: url("../images/de-aqui-purple-2.svg");
+        background-color: c(purple-dark);
+      }
+
+      &-collapse {
+        .header__btn--image .cls-1 {
+          fill: #0B0E17;
+        }
+      }
+    }
+
+    .tienda {
+        &--back {
+            background-color: c(came-dark);
+        }
+        &-collapse {
+            .header__btn--image .cls-1 {
+                fill: #311413;
+            }
+        }
+    }
+
+    .contacto {
+      color: c(purple-dark);
+      &__sucursal {
+        color: rgba(54, 59, 79, 0.5);
+        &.is-active, &:hover {
+          color: c(purple-dark);
+        }
+      }
+
+      &-color {
+        .cls-1 {
+          fill: c(purple-dark);
+        }
+        .header__btn--image .cls-1 {
+          fill: #fff;
+        }
+      }
+    }
+    .contacto__image:hover .contacto__layer-back {
+         background-color: #363B4F;
+    }
+
+
+
+    .comunidad {
+      &__back {
+        background-color: c(green-dark);
+        background-image: url("../images/comunidad-green-dark-2.svg");
+      }
+
+      &-collapse {
+        .header__btn--image .cls-1 {
+          fill: #172A08;
+        }
+      }
+    }
+
+    .menu {
+      color: c(purple-dark);
+
+      &__box {
+          &.is_stuck {
+              .menu__items {
+                  &.first {
+                      color: rgba(54, 59, 79, 0.5);
+                  }
+              }
+          }
+      }
+
+      &__items {
+        color: rgba(54, 59, 79, 0.5);
+        &.first {
+          color: c(purple-dark);
+        }
+        &.active {
+          color: c(purple-dark) !important;
+        }
+      }
+
+      &-color {
+        .cls-1 {
+          fill: c(purple-dark);
+        }
+      }
+
+      .img__hoja {
+        .cls-1 {
+            fill: c(purple-dark);
+        }
+      }
+    }
+
+    .servicios {
+      background-color: c(beige);
+      color: c(green-dark);
+
+      &__form {
+            border: 1px solid c(green-dark);
+      }
+
+      &__input {
+        color: c(green-dark);
+        border-bottom: 1px solid c(green-dark);
+        &::placeholder {
+    			color: c(green-dark);
+    		}
+      }
+
+      &__btn {
+        color: c(green-dark);
+      }
+
+      &-color {
+        .cls-1 {
+          fill: c(green-dark);
+        }
+      }
+    }
+
+
+  }
+
+}

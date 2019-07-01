@@ -1,0 +1,124 @@
+%link {
+	cursor: pointer;
+	text-decoration: none;
+
+	&:hover,
+	&:active,
+	.selected {
+	}
+}
+
+/* H E A D E R */
+%links-menu, .links-menu {
+	font-family: f(sans);
+     font-size: 2.1vw;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	line-height: 75px;
+	color: c();
+	@include under(first) {
+	    // font-size: 28px;
+	    line-height:60px;
+	}
+	// @media (max-height: 600px) {
+	// 	font-size: 2.1vw;
+	// 	// color: red;
+	// 	line-height: 75px;
+	// }
+
+	// @media (max-height: 768px), (max-width: 1024px)  {
+	// 	font-size: 1.9vw;
+	// 	line-height: 57px;
+	// }
+	// @media (max-height: 736px), (max-width: 1024px) {
+	// 	line-height: 50px;
+	// 	// color: red;
+	// }
+
+	@media screen and (max-width: 1300px) , screen and (max-height: 768px) {
+		font-size: 1.9vw;
+		line-height: 75px;
+	}
+
+
+	@media (max-height: 690px) {
+		line-height: 50px;
+	}
+
+
+
+	@media screen and (max-width: 1300px) , screen and (max-height: 685px) {
+		line-height: 70px;
+	}
+	@media (max-width: 1171px) {
+		line-height: 55px;
+	}
+	// @media screen and (max-width: 1300px) , screen and (max-height: 665px) {
+	// 	line-height: 60px;
+	// }
+	// @media screen and (max-width: 1300px) , screen and (max-height: 665px) {
+	// 	line-height: 64px;
+	// }
+
+
+
+	// @media screen and (max-width: 1024px) , screen and (max-height: 800px) {
+	// 	line-height: 60px;
+	// }
+	// @media screen and (max-width: 1200px) , screen and (max-height: 880px) {
+	// 	line-height: 57px;
+	// }
+
+
+	// @media screen and (max-width: 1300px) , screen and (max-height: 700px) {
+	// 	line-height: 70px;
+	// }
+
+	// @media screen and (max-width: 1300px) , screen and (max-height: 560px) {
+	// 	// line-height: 35px;
+	// 	line-height: 8.5vh;
+	// }
+	@media (max-height: 632px) {
+		line-height: 45px;
+	}
+	// @media screen and (max-width: 1300px) , screen and (max-height: 665px) {
+	// 	line-height: 60px;
+	// }
+
+
+	@include under(second) {
+	    font-size: 22px;
+	    line-height: 52px;
+	}
+}
+
+%links-header-contact, .links-header-contact {
+	font-family: f(sans);
+	font-size: 15px;
+	line-height: 16px;
+	color: c();
+	@include under(second) {
+		font-size: 14px;
+	}
+}
+
+%links-menu-small, .links-menu-small {
+	@extend %links-menu;
+	// font-size: 16px;
+	font-size: 1.2vw;
+	font-weight: 400;
+	@media (min-height: 768px), (min-width: 1024px) {
+	     line-height: 50px;
+	}
+	@media (max-height: 768px) {
+		font-size: 1.2vw;
+		line-height: 25px;
+		// color: blue !important;
+
+	}
+	@include under(second) {
+	    font-size: 16px;
+	    line-height: 52px;
+	}
+}

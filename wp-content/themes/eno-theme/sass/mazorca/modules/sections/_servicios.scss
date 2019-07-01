@@ -1,0 +1,272 @@
+.servicios {
+	height: 100%;
+	min-height: 100vh;
+
+	padding: 0px 0px 0px 0px;
+	@include under(break) {
+		padding: 50px 0px 30px 0px;
+	}
+
+	&--two-section {
+	    // padding: 0px 0 100px 0;
+		@include under(break) {
+			padding: 30px 0px 30px 0px;
+		}
+	}
+	/* C o l o r e s */
+	&__color {
+
+	}
+	&__box{
+		&--left {
+			//padding: 0 2vw;
+			margin-left: 10vw;
+			max-width: 445px;
+			@include under(break) {
+				margin: 0 auto;
+				max-width: 580px;
+				padding: 20px;
+			}
+			@include under(xs) {
+				max-width: 300px;
+				padding-left: 15px;
+				padding-right: 15px;
+			}
+		}
+
+		&--right {
+			max-width: 540px;
+	    		padding: 0px 0vw 0px 0px;
+			margin-right: 105px;
+		  	margin-left: 35px;
+			margin-top: 10px;
+			@include under(first) {
+				margin-left: 0px;
+			}
+			@include under(break) {
+				margin: 0 auto;
+				max-width: 580px;
+				padding: 20px;
+			}
+			@include under(xs) {
+				max-width: 300px;
+				padding-left: 15px;
+				padding-right: 15px;
+			}
+		}
+
+		&-two {
+			margin-top: 150px;
+		}
+	}
+
+	&__contenido {
+		// padding-top: 45px;
+		@include under(break) {
+			padding-top: 45px;
+		}
+		@include under(mobile) {
+			padding-top: 25px;
+		}
+	}
+
+	&__facturacion {
+
+	}
+
+	&__bolsa-trabajo {
+
+	}
+
+	&__catering {
+
+	}
+	//Texto
+	p {
+		@extend %paragraph-text;
+
+		&:nth-child(2) {
+			padding-top: 12px;
+    	padding-bottom: 8px;
+		}
+
+		&--anclas {
+			text-decoration: underline;
+		}
+
+		//Titulo : Negrita
+		strong {
+			@extend %sbtitle-content;
+				padding-bottom: 20px;
+				padding-top: 60px;
+				@include under(first) {
+					margin-top: 0px;
+				}
+		}
+
+		a {
+			text-decoration: underline;
+		}
+
+	}
+
+	//Nota : cita
+	blockquote {
+		p {
+			@extend %paragraph-servicios-contacto;
+			padding-top: 15px;
+			&:last-child {
+				padding-top: 5px;
+			}
+		}
+	}
+
+	&__form {
+		background-color: transparent;
+	    display: flex;
+	    flex-direction: row;
+	    flex-wrap: wrap;
+	    padding: 5px 0px 20px 0px;
+		margin-top: 40px;
+		@include under(xs) {
+			padding: 10px 15px 30px 15px;
+		}
+		&-title {
+			text-align: center;
+			width: 100%;
+			letter-spacing: 7.5px;
+			font-size: 14px;
+			font-family: f(sans);
+			font-weight: 500;
+	    padding-bottom: 5px;
+		}
+		&-50 {
+			width: 44%;
+			display: flex;
+			margin: 0 auto;
+			@include under(xs) {
+				flex-direction: column;
+				width: 100%;
+
+			}
+			.form__group {
+				&:first-child {
+					margin-left: 0px;
+					width: 49.5%;
+					@include under(xs) {
+						width: 100%;
+					}
+				}
+				&:last-child {
+					margin-right: 0px;
+				}
+			}
+		}
+	}
+
+	&__input {
+		@extend %paragraph-servicios-form;
+		color: #6D8536;
+		border: 0;
+    	border-bottom: 1px solid #6D8536;
+		background-color: transparent;
+		padding: 0px;
+	}
+
+
+	&__btn {
+		@extend %button-services-form;
+		margin-right: 3%;
+		margin-left: auto;
+    	margin-bottom: -37px;
+		padding: 0px;
+		@include under(xs) {
+			margin-top: 30px;
+			margin-bottom: 0px;
+		}
+
+	}
+
+	/* I m a g e n */
+	&__image {
+		&--right {
+			display: block;
+			width: 73.6%;
+			height: auto;
+
+			position: relative;
+			overflow: hidden;
+			padding-top: 92%;
+			margin-left: auto;
+			margin-right: 105px;
+
+
+			@include under(break) {
+				margin: 0 auto;
+				max-width: 580px;
+			}
+			@include under(xs) {
+				width: 100%;
+				max-width: 300px;
+			}
+
+		}
+		&--img-right {
+			display: block;
+			max-width: 100%;
+			max-height: 100%;
+			position: absolute;
+		    object-fit: cover;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+		}
+
+		&--left {
+			display: block;
+			width: 56%;
+			height: auto;
+			position: relative;
+			overflow: hidden;
+			padding-top: 69.9%;
+			// margin-left: 11.5vw;
+			// margin-right: 105px;
+		     margin: 0 auto;
+			@include under(second) {
+				margin-top: 50px;
+			}
+
+			@include under(break) {
+				margin: 25px auto 0 auto;
+				max-width: 580px;
+			}
+			@include under(xs) {
+				width: 100%;
+				max-width: 300px;
+			}
+		}
+		&--img-left {
+			display: block;
+			max-width: 100%;
+			max-height: 100%;
+			object-fit: contain;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+		}
+
+	}
+}
+
+.form__group {
+	width: 44%;
+	padding: 0px;
+	margin: 15px 3% 0px 3%;
+	@include under(xs) {
+		width: 100%;
+		margin: 15px 0px 0px 0px;
+	}
+}

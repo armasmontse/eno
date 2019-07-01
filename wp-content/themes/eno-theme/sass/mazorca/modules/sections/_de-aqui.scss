@@ -1,0 +1,155 @@
+.de-aqui {
+	//width: 100vw;
+	width: 100%;
+	height: 100%;
+	min-height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	color: white;
+	@include under(break) {
+		height: auto;
+		// background-position: 21% bottom;
+	    background-position: 167px 100%;
+		background-size: contain;
+	}
+	@include under(second) {
+		height: auto;
+	}
+
+	@include under(xs) {
+		background-position: 21% bottom;
+	    background-size: 920px 469px;
+	}
+
+	&__row {
+		@include under(break) {
+			flex-direction: column-reverse;
+		}
+	}
+    /* P r i m e r a   c o l u m n a */
+
+	&__contenedor {
+		margin-top: 18vh;
+ 		// margin-left: 7vw;
+		@include over(lg-1440) {
+		    margin-top: 9vh;
+    	}
+		@include under(break) {
+		    margin: 0;
+		    padding-top: 10vh;
+    	}
+
+	}
+
+    &__ttl {
+    	@extend %title-home;
+		position: relative;
+		margin-bottom: -35px;
+		color: #F4F0E6;
+		text-align: left;
+		width: auto;
+		z-index: 1;
+    	// max-width: 483px;
+	    z-index: 1;
+		@include over(lg-1440) {
+			// font-size: 60px;
+			margin-bottom: -24px;
+		}
+    	@include under(break) {
+			text-align: center;
+		    margin-bottom: -25px;
+
+    	}
+
+		@include under(xs) {
+			// font-size: 47px;
+		}
+    }
+
+	&__cont-img {
+    	// max-width: 483px;
+		width: 59.7%;
+		padding-top: 83%;
+		margin-left: 7vw;
+	    background-color: whitesmoke;
+	    position: relative;
+		@include over(lg-1440) {
+			width: 53%;
+			padding-top: 73.53%;
+		}
+		@include under(break) {
+			// max-width: 442px;
+    		// padding-top: 312px;
+			margin: 0 auto;
+    	}
+	}
+
+    &__img {
+		left: 0;
+	    position: absolute;
+	    top: 0;
+	    height: 100%;
+	    width: 100%;
+	    object-fit: cover;
+	    object-position: 32% 20%;
+	    user-select: none;
+		@include under(break) {
+			margin: 0 auto;
+    	}
+    }
+
+	/* S e g u n d a   c o l u m n a */
+    &--flex {
+		height: 100%;
+		min-height: 100vh;
+    	display: flex;
+    	align-items: center;
+    	@include under(break) {
+			justify-content: center;
+			height: 100%;
+			min-height: 47vh;
+    	}
+		@include under(second) {
+			height: 100%;
+			min-height: 47vh;
+			padding: 40px 0px;
+    	}
+    }
+
+    &__box{
+		width: 100%;
+	    max-width: 540px;
+	    margin-left: 18vh;
+	    margin-top: -9vh;
+	    text-align: left;
+
+		@include under(break) {
+			// margin: -60vh 0 0;
+			text-align: center;
+			margin: 0px auto;
+  		}
+	}
+
+	&__categoria {
+		@extend %sbtitle-content;
+		margin-bottom: 20px;
+		color: #E1DDCD;
+	}
+
+	&__contenido {
+		@extend %paragraph-text;
+		color: #E1DDCD;
+		p {
+			strong {
+				font-weight: bold;
+			}
+			a {
+				text-decoration: underline;
+			}
+			em {
+				font-style: italic;
+			}
+		}
+	}
+}

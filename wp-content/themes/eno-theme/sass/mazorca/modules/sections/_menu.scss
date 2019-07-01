@@ -1,0 +1,210 @@
+.menu {
+	background-color: #FFFFFA;
+	padding: 90px 0 50px 0;
+
+	@include under(mobile) {
+		text-align: center;
+	}
+
+	&__box {
+		&#menu-fix {
+			margin-top: 8vh;
+			// transition: all 5s;
+			z-index: 9;
+			// margin-left: 3vw;
+
+			@include under(first) {
+				margin-left: 0vw;
+	    	}
+		}
+
+		&.is_stuck {
+
+		}
+
+		p {
+			/* P l a t i l l o */
+			@extend %paragraph-menu-platillo;
+			// margin-top: 25px;
+			margin-bottom: 19px;
+
+			span {
+				/* C a t e g o r i a */
+				text-decoration: unset !important;
+				@extend %paragraph-menu-categoria;
+				display: block;
+				margin-top: 20px;
+			}
+
+			em {
+				font-style: italic;
+				font-weight: 100;
+			}
+
+			strong {
+				@extend %paragraph-menu-subcategoria;
+				margin-top: 23px;
+				display: block;
+			}
+		}
+
+	}
+
+	#menu-bebidas {
+		p {
+			margin-bottom: 5px;
+		}
+	}
+	/* C a t e g o r i a */
+	&__categoria {
+		@extend %paragraph-menu-categoria;
+		margin-top: 20px;
+		margin-bottom: 13px;
+
+		&.desayunos--ttl {
+			margin-bottom: 25px;
+		}
+	}
+
+	/* T í t u l o */
+	&__ttl {
+		@extend %title-menu;
+		text-transform: uppercase;
+		letter-spacing: 15px;
+		font-weight: normal;
+		margin-left: 20px;
+
+		@include under(mobile) {
+			margin-left: 0px;
+		}
+	}
+
+	&__items {
+		@extend %secciones-menu;
+		&.active {
+
+		}
+	}
+
+	&__subcategoria {
+		@extend %paragraph-menu-subcategoria;
+		margin-top: 20px;
+	}
+
+
+	&__descripcion {
+		@extend %paragraph-menu-descripcion;
+	}
+
+	/* H o j a */
+	.img__hoja {
+
+		.hoja1 {
+			width: 92%;
+			margin: 30px auto;
+			float: none;
+			max-width: 300px;
+		}
+
+		.hoja3 {
+			width: 60%;
+			height: auto;
+			float: right;
+			margin: 30px 0;
+			max-width: 200px;
+
+			@include under(second) {
+				float: none;
+				margin: 30px auto;
+   		}
+		}
+	}
+
+	/* G r i d */
+
+	&__container {
+		width: 85%;
+		margin: 0 auto;
+		display: flex;
+	}
+
+	&__col4 {
+		width: 30%;
+		@include under(first) {
+			width: 28%;
+			min-width: 23%;
+    	}
+
+    	@include under(second) {
+				width: 25%;
+    	}
+
+    	@include under(mobile) {
+				display: none;
+    	}
+
+	}
+
+	&__col8 {
+		width: 70%;
+		border-left: 1px solid c(green-dark);
+		padding-left: 20px;
+
+		@include under(second) {
+			padding-left: 10px;
+    	}
+
+    	@include under(mobile) {
+			border-left: none;
+			width: 80%;
+			margin: 0 auto;
+			padding-left: 0px;
+    	}
+
+    	@include under(xs) {
+			width: 100%;
+    	}
+	}
+
+	.row {
+		display: flex;
+
+		@include under(second) {
+			display: block;
+    	}
+	}
+
+	.col6 {
+		width: 40%;
+		margin: 0 10px;
+		padding: 0 10px;
+
+		@include under(first) {
+			width: 45%;
+    	}
+
+    	@include under(second) {
+			width: 100%;
+			margin: 0;
+    	}
+	}
+
+	.col12 {
+		width: 100%;
+		margin: 0 10px;
+		padding: 0 10px;
+
+		.two-columns {
+			width: 87%;
+			column-count: 2;
+
+			@include under(first) {
+				width: 100%;
+	    	}
+
+	    	@include under(second) {
+				column-count: 1;
+	    	}
+		}
+	}
+}

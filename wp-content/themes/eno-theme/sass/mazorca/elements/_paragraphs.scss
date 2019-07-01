@@ -1,0 +1,116 @@
+%paragraph-text, .paragraph-text {
+    font-family: f(sans);
+    // font-size: 36px;
+    font-size: 2.53vw;
+    font-weight: normal;
+    line-height: 50px;
+    @include under(lg-1440) {
+		line-height: 40px;
+	}
+	@include under(first) {
+		// font-size: 32px;
+		line-height: 36px;
+	}
+
+	@include under(break) {
+		font-size: 32px;
+	}
+    @include under(xs) {
+		font-size: 24px;
+		line-height: 28px;
+	}
+
+}
+
+%paragraph-copyright, .paragraph-copyright {
+  font-family: f(serif);
+  font-size: 12px;
+  font-weight: normal;
+  font-style: italic;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+%paragraph-contact-addres, .paragraph-contact-addres {
+    font-family: f(sans);
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+}
+
+%paragraph-menu-categoria, .paragraph-menu-categoria {
+	font-family: f(sans);
+	font-size: 24px !important;
+  font-weight: 500 !important;
+	line-height: 30px !important;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+%paragraph-menu-subcategoria, .paragraph-menu-subcategoria {
+	@extend %paragraph-menu-platillo;
+	font-weight: 500 !important;
+	text-transform: uppercase;
+}
+
+
+%paragraph-menu-platillo, .paragraph-menu-platillo {
+	font-family: f(sans);
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 20px;
+}
+
+%paragraph-menu-descripcion, .paragraph-menu-descripcion {
+	@extend %paragraph-menu-platillo;
+	font-style: italic;
+}
+
+%paragraph-servicios-contacto, .paragraph-servicios-contacto {
+  font-family: f(sans);
+	font-size: 14px;
+	font-weight: 100;
+  font-style: italic;
+	line-height: 24px;
+}
+
+%paragraph-servicios-form, .paragraph-servicios-form {
+  font-size: 14px;
+  line-height: 16px;
+  font-style: italic;
+  font-weight: 100;
+  font-family: f(sans);
+}
+
+%paragraph-text-hover, .paragraph-text-hover {
+    font-family: f(sans);
+    font-size: 2vw;
+    font-weight: normal;
+    line-height: 35px;
+    @include over(lg-1440) {
+        line-height: 45px;
+    }
+    @include under(break) {
+        font-size: 29px;
+    }
+}
+
+%paragraph-restricciones, .paragraph-restricciones {
+    font-family: f(sans);
+    font-size: 14px;
+    line-height: 24px;
+}
+
+%paragraph-download, .paragraph-download {
+    font-family: f(sans);
+    font-size: 1.4vw;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #f4f0e6;
+    @include under(break) {
+        font-size: 20px;
+	}
+
+}
