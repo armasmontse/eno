@@ -42,7 +42,7 @@
   "homepage": "https://github.com/el-cultivo/cltvo-blank-wptheme#readme",
   "dependencies": {
     "fullpage.js": "^2.9.7",
-    "jquery": "^3.2.1",
+    "jquery": "^3.5.0",
     "mazorca-core": "^1.6.2",
     "ramda": "^0.24.1"
   }
